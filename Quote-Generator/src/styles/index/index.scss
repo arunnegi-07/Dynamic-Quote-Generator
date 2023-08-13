@@ -11,13 +11,14 @@ body{
     .title{
         font-size: $h1;
         text-align: center;
+        margin-top: 30px;
     }
 
     .toggle-btn{
-        position: fixed;
+        position: absolute;
         top: 20px;
         right: 20px;
-      }
+    }
 }
 
 // Styles for Card Section
@@ -27,7 +28,7 @@ body{
     justify-content: center;
     gap: 40px;
     padding: 1.5rem;
-    margin: 2rem;
+    margin: 2rem; 
     border-radius: 8px;
     box-shadow: $shadow-2;
 
@@ -36,6 +37,7 @@ body{
         display: flex;
         flex-direction: column;
         gap: 20px;
+        cursor: pointer;
 
         &--quote{
 
@@ -123,12 +125,17 @@ body{
                     color: #1DA1F2;
                 }
 
-                .facebook-icon:hover{
-                    color: #1877F2;
+                .gmail-icon:hover{
+                    color: #F28500;
                 }
             }
         }
     }
+}
+
+#copy-feedback{
+    font-size: 1.1rem;
+    color: #5684F4;
 }
 
 // Media queries for Index page
@@ -200,3 +207,6 @@ body{
         }
     }
 }
+
+
+
