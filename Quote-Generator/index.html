@@ -31,28 +31,37 @@
         <section class="cardSection container" id="quote-container">
             <!-- content -->
             <div class="cardSection__content text-center">
-                <div class="cardSection__content--quote">
+                <div class="cardSection__content--quote" id="">
                     <i class="fa-solid fa-quote-left quote-icon"></i>
-                    <span>If you want to leave your footprints On the sands of time Do not drag your feet.</span>
+                    <span id="quote-text"></span>
                 </div>
                 <div class="cardSection__content--author">
-                    <span>APJ Abdul Kalam</span>
+                    <span id="author"></span>
                 </div>
+                <p id="copy-feedback" class="hidden">Text Copied!</p>
             </div>
              <!-- buttons -->
             <div class="cardSection__buttons">
                 <div class="cardSection__buttons--shareContainer">
                     <span class="share-btn"><i class="fa-solid fa-share" style="color: #ffffff;"></i></span>
                     <div class="share-options">
-                        <a href="#" class="share-option"><i class="fab fa-whatsapp whatsapp-icon"></i></a>
-                        <a href="#" class="share-option"><i class="fab fa-twitter twitter-icon"></i></a>
-                        <a href="#" class="share-option"><i class="fab fa-facebook facebook-icon"></i></a>
+                        <a href="#" class="share-option" id="whatsapp-btn"><i class="fab fa-whatsapp whatsapp-icon"></i></a>
+                        <a href="#" class="share-option" id="twitter-btn"><i class="fab fa-twitter twitter-icon"></i></a>
+                        <a href="#" class="share-option" id="gmail-btn"><i class="fa-solid fa-envelope gmail-icon"></i></a>
                     </div>
                 </div>
-                <button class="success-btn change-quote">New Quote</button>
+                <button class="success-btn change-quote" id="new-quote-btn">New Quote</button>
             </div>
         </section>
+        
+        <!-- loader -->
+        <div class="loader" id="loader">
+            <div class="loadingio-spinner-pulse-tqseq42pma9"><div class="ldio-ub2bbqgbcz">
+                <div></div><div></div><div></div>
+                </div></div>
+        </div>
 </body>
-<script src="./src/main.js"></script>
-<script src="./src/api.js"></script>
+<script src="./src/js/main.js"></script>
+<script src="./src/js/quotes.js"></script>
+<script src="./src/js/api.js"></script>
 </html>
