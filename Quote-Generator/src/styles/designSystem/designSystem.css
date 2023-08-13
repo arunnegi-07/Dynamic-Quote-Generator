@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300;10..48,400;10..48,500;10..48,600&family=Crimson+Text:wght@400;600;700&family=Work+Sans:wght@100;200;400;500;600;700;800;900&display=swap");
+.success-btn {
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 8px;
+  padding: 10px 40px;
+  background-color: #04AA6D;
+  color: rgb(255, 255, 255);
+  box-shadow: 0.25rem 0.25rem rgba(67, 66, 66, 0.4);
+}
+.success-btn:active {
+  transform: translate(0.25rem, 0.25rem);
+  box-shadow: 0 0 rgba(255, 255, 255, 0.65);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 80%;
+}
+.container .btn {
+  align-self: center;
+}
+.container .content {
+  text-align: justify;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80px;
+  height: 40px;
+  background-color: black;
+  transition: all 1s ease;
+  border-radius: 20px;
+  cursor: pointer;
+  position: relative;
+}
+.box .ball {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background-color: grey;
+  transition: all 1s ease;
+  border: 3px solid black;
+  border-radius: 20px;
+  position: absolute;
+}
+.box .scenary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 1s ease;
+  padding: 5px 10px 0px 10px;
+}
+.box .scenary svg {
+  width: 29.6296296296px;
+}
+
+.night-style .cardSection {
+  background-color: rgba(25, 61, 61, 0.2);
+}
+.night-style .whatsapp-icon {
+  color: #42E35F;
+}
+.night-style .twitter-icon {
+  color: #1DA1F2;
+}
+.night-style .facebook-icon {
+  color: #1877F2;
+}
+.night-style .share-btn, .night-style .change-quote {
+  background-color: #04AA6D;
+}
+.night-style .box {
+  background-color: white;
+}
+.night-style .ball {
+  transform: translateX(100%);
+  border: 3px solid white;
+}/*# sourceMappingURL=designSystem.css.map */
