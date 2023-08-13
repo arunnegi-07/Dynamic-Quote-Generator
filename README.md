@@ -28,6 +28,6 @@ Follow these instructions to get a copy of the project up and running on your lo
 **5.** Now, you can run the website in your local machine by just opening **index.html** in any of the browser of your choice.
 <br><br>
 
-- [See Website live 🚀](quote-generator-07.netlify.app) (right-click and choose "Open link in a new tab")
+- [See Website live 🚀](https://quote-generator-07.netlify.app/) (right-click and choose "Open link in a new tab")
 
 
